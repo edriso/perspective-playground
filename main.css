@@ -28,12 +28,12 @@ body {
   background-color: var(--theme-bg);
   font-family: "Lato", sans-serif;
   letter-spacing: 0.0625rem;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 #app {
   z-index: 2;
-  padding: 0.5rem 0.25rem;
+  padding: 0.5rem 0.25rem 1.5rem;
 }
 
 h2 {
@@ -101,7 +101,7 @@ label {
   background: var(--theme-color);
 }
 
-@media (max-width: 48em) {
+@media screen and (max-width: 48em) {
   h2 {
     font-size: 1.5rem;
     margin: 1.25rem 0;
@@ -118,7 +118,7 @@ label {
   }
 
   .box-container {
-    margin: 1rem auto 1.5rem;
+    margin: 1rem auto 0;
     max-width: 16rem;
     max-height: 16rem;
   }
